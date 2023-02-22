@@ -73,9 +73,9 @@ input{
     <p><input id="cod" placeholder="Código inscrição" type="number"></p>
     <p><input id="idade" placeholder="idade" type="number"></p>
     <div>
-        <p><input id="masc" placeholder="sexo" type="checkbox"> Masculino</p>
-        <p><input id="fem" placeholder="sexo" type="checkbox">Feminino</p>
-        <p><input id="outr" placeholder="sexo" type="checkbox">Outros</p>
+        <p><input class="sexo" id="masc" placeholder="sexo" type="checkbox" value="masculino"> Masculino</p>
+        <p><input class="sexo" id="fem" placeholder="sexo" type="checkbox" value="feminino">Feminino</p>
+        <p><input class="sexo" id="outr" placeholder="sexo" type="checkbox" value="outros">Outros</p>
     </div>
     
 
@@ -85,8 +85,26 @@ input{
 <div id="info"></div>
 <div id="info1"></div>
 
-
+    <!--src="https://code.jquery.com/jquery-3.6.3.min.js"-->
 <script>
+
+function calc(){
+    let nome = document.getElementById("nome").value
+    let cod = document.getElementById("cod").value
+    let idade = document.getElementById("idade").value
+
+    let sexo = document.querySelectorAll('[name=masculino]:checked').value
+    let a_sex = []
+    let desc = [nome, cod, idade, a_sex]
+
+    for (let i = 0; i < masculino.length; i++){
+        s_sex.push(masculino[i].value)
+    }
+
+
+    info.innerHTML = (desc)
+}
+
 
 
 
