@@ -1,0 +1,15 @@
+C:\Users\Rafael\Documents\GitHub\UNISEPE\bin\Debug\net7.0\UNISEPE.exe
+C:\Users\Rafael\Documents\GitHub\UNISEPE\bin\Debug\net7.0\UNISEPE.deps.json
+C:\Users\Rafael\Documents\GitHub\UNISEPE\bin\Debug\net7.0\UNISEPE.runtimeconfig.json
+C:\Users\Rafael\Documents\GitHub\UNISEPE\bin\Debug\net7.0\UNISEPE.dll
+C:\Users\Rafael\Documents\GitHub\UNISEPE\bin\Debug\net7.0\UNISEPE.pdb
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\UNISEPE.csproj.AssemblyReference.cache
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\UNISEPE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\UNISEPE.AssemblyInfoInputs.cache
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\UNISEPE.AssemblyInfo.cs
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\UNISEPE.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\UNISEPE.dll
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\refint\UNISEPE.dll
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\UNISEPE.pdb
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\UNISEPE.genruntimeconfig.cache
+C:\Users\Rafael\Documents\GitHub\UNISEPE\obj\Debug\net7.0\ref\UNISEPE.dll

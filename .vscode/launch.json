@@ -1,6 +1,47 @@
 {
     "configurations": [
-    
-    ]
+        {
+            "name": "PowerShell cmdlets: powershell",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "powershell",
+            "args": [
+                "-NoExit",
+                "-NoProfile",
+                "-Command",
+                "Import-Module ${workspaceFolder}/myModule/bin/Debug/netstandard2.0/myModule.dll"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "C/C++: codigo modularizado.c Compilar e depurar o arquivo ativo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "c:\\Users\\Rafael\\Documents\\GitHub\\UNISEPE\\programação estruturada\\unidade 1",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Habilitar a reformatação automática para gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Definir Tipo de Desmontagem como Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: codigo modularizado.c arquivo de build ativo"
+        }
+    ],
+    "version": "2.0.0"
 }
-
