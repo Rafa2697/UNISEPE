@@ -1,0 +1,3 @@
+Seu numero é 100 e seu salario atual é: 845.00
+Seu aumento foi de 10%: 84.50
+Novo salario 929.50
