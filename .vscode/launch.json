@@ -1,11 +1,12 @@
 {
     "configurations": [
+        
         {
             "name": "PowerShell cmdlets: powershell",
             "type": "clr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "powershell",
+            "program": "${workspaceFolder}/a.exe",
             "args": [
                 "-NoExit",
                 "-NoProfile",
@@ -25,9 +26,9 @@
             "stopAtEntry": false,
             "cwd": "c:\\Users\\Rafael\\Documents\\GitHub\\UNISEPE\\programação estruturada\\unidade 1",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "gdb.exe",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Habilitar a reformatação automática para gdb",
@@ -51,9 +52,9 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\TDM-GCC-64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\MinGW\\bin\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Habilitar a reformatação automática para gdb",
