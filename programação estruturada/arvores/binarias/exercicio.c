@@ -16,7 +16,7 @@ NoArv* inserir_versao_1(NoArv *raiz, int num){
         aux->direita = NULL;
 
         return aux;
-    }else{
+    }else{ 
         if (num < raiz->valor){
             raiz->esquerda = inserir_versao_1(raiz->esquerda, num); 
         }else{
