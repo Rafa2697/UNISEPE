@@ -98,22 +98,53 @@ void inorderTraversal(struct Node* node) {
     }
 }
 
+// Função pré-ordem recursiva
+void preOrdem(struct Node* node) {
+    if (node != NULL) {
+        printf("%d ", node->key);  // Visita a raiz
+        preOrdem(node->left);      // Percorre o nó da esquerda
+        preOrdem(node->right);     // Percorre o nó da direita
+    }
+}
+
+// Função para percorrer em pós-ordem
+void postOrder(struct Node* node) {
+    if (node == NULL) {
+        return;
+    }
+
+    // Primeiro, visitamos o filho esquerdo
+    postOrder(node->left);
+
+    // Em seguida, visitamos o filho direito
+    postOrder(node->right);
+
+    // Por último, visitamos o nó raiz
+    printf("%d ", node->key);
+}
+
 // Função principal
 int main() {
     struct Node* root = NULL;
     
-    root = insertNode(root, 20);
-    root = insertNode(root, 25);
-    root = insertNode(root, 40);
+    root = insertNode(root, 1);
+    root = insertNode(root, 2);
+    root = insertNode(root, 3);
     
-    root = insertNode(root, 15);
+    root = insertNode(root, 4);
     
-    root = insertNode(root, 42);
-    root = insertNode(root, 50);
-    root = insertNode(root, 65);
+    root = insertNode(root, 5);
+    root = insertNode(root, 6);
+    root = insertNode(root, 7);
 
     printf("Arvore AVL em ordem: ");
     inorderTraversal(root);
+    printf("\n");
+    printf("Arvore AVL pre-ordem: ");
+    preOrdem(root);
+    printf("\n");
+    printf("Arvore AVL pos-Ordem: ");
+    postOrder(root);
     printf("\n");
 
     return 0;
