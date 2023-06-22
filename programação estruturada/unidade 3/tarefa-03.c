@@ -47,6 +47,8 @@ No* inserir(No *raiz, int x){
 
 }
 
+
+
 void imprimir(No *raiz, int nivel){
     int i;
     if(raiz){
