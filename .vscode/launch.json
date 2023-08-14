@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula02",
+            "request": "launch",
+            "mainClass": "Aula02",
+            "projectName": "UNISEPE_6469cd2b"
+        },
+        {
+            "type": "java",
+            "name": "vetores",
+            "request": "launch",
+            "mainClass": "vetores",
+            "projectName": "UNISEPE_6469cd2b"
+        },
+        {
+            "type": "java",
             "name": "app",
             "request": "launch",
             "mainClass": "app",
