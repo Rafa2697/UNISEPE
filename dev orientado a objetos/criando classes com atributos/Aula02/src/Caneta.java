@@ -7,7 +7,7 @@ public class Caneta {
         boolean tampada;
 
         void status(){
-            System.out.println("Uma caneta " + this.cor);
+            System.out.print("Uma caneta " + this.cor);
             System.out.println(this.tampada);
         }
 
