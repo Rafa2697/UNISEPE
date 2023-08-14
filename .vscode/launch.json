@@ -1,13 +1,25 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "app",
+            "projectName": "UNISEPE_6469cd2b"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "UNISEPE_6469cd2b"
+        },
+        {
             "command": "npm start",
             "name": "Run npm start",
             "request": "launch",
             "type": "node-terminal"
         },
-
-        
         {
             "name": "PowerShell cmdlets: powershell",
             "type": "clr",

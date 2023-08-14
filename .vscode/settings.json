@@ -3,5 +3,6 @@
     "C_Cpp.default.cppStandard": "c++98",
     "C_Cpp.default.cStandard": "c89",
     "C_Cpp.autocompleteAddParentheses": true,
-    "editor.autoIndent": "advanced"
+    "editor.autoIndent": "advanced",
+    "java.debug.settings.onBuildFailureProceed": true
 }
