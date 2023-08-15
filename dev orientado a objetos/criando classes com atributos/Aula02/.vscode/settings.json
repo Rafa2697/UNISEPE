@@ -1,7 +1,60 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+    "diffEditor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "php.validate.executablePath": "true",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "C_Cpp.default.compilerPath": "c:\\Users\\Rafael\\Documents\\GitHub\\UNISEPE\\programação estruturada\\unidade 1\\main.c",
+    "debug.javascript.autoAttachFilter": "smart",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "json.schemas": [],
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "grunt.autoDetect": "on",
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.enablePreview": false,
+    "open-php-html-js-in-browser.selectedBrowser": "Chrome",
+    "[php]": {
+    
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "cmake.configureOnOpen": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "vscode-edge-devtools.webhint": false,
+    "files.autoSave": "afterDelay",
+    "editor.accessibilityPageSize": 13,
+    "[python]": {
+    
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": false
+    },
+    "terminal.integrated.automationProfile.windows": {
+
+    },
+    "settingsSync.ignoredExtensions": [
+        "vscjava.vscode-java-debug"
+    ],
+    "terminal.integrated.showExitAlert": false,
+    "java.cleanup.actionsOnSave": [
+        "qualifyMembers"
+    ],
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "jake.autoDetect": "on",
+    "files.associations": {
+        "*.java": "java"
+    },
+    "[java]": {
+
+        "editor.suggest.snippetsPreventQuickSuggestions": true
+    },
+    "java.debug.settings.console": "internalConsole"
 }
