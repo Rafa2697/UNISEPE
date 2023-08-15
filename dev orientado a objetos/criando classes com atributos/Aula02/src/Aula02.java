@@ -7,6 +7,8 @@ public class Aula02 {
         c1.cor = "azul";
         c1.ponta = 0.5f;
         c1.tampada = false;
-        c1.status();
+        c1.carga = 10;
+        
+        c1.rabiscar();
     }
 }

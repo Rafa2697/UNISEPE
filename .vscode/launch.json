@@ -5,6 +5,20 @@
             "name": "Aula02",
             "request": "launch",
             "mainClass": "Aula02",
+            "projectName": "UNISEPE_835b49c1"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "UNISEPE_835b49c1"
+        },
+        {
+            "type": "java",
+            "name": "Aula02",
+            "request": "launch",
+            "mainClass": "Aula02",
             "projectName": "UNISEPE_6469cd2b"
         },
         {
