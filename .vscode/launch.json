@@ -5,6 +5,13 @@
             "name": "Aula03",
             "request": "launch",
             "mainClass": "Aula03",
+            "projectName": "UNISEPE_835b49c1"
+        },
+        {
+            "type": "java",
+            "name": "Aula03",
+            "request": "launch",
+            "mainClass": "Aula03",
             "projectName": "UNISEPE_6469cd2b"
         },
         {
